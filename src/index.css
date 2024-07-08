@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --main-color:#4DABF4;
+}
+*{
+  outline: uto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.cp{
+  padding:clamp(0rem, 0rem + 5.3333vw, 5rem);
+}
+.cp100{
+  padding: clamp(0rem, 0rem + 6.6667vw, 6.25rem);
+}
+.cml100{
+  padding-left: clamp(0rem, 0rem + 6.6667vw, 6.25rem);
+}
+.fz-25{
+  font-size: clamp(1rem, 1rem + 0.6vw, 1.5625rem);
+}
+.fz-0-25{
+  font-size: clamp(0rem, 0rem + 1.6667vw, 1.5625rem);
+}
+.fz-33{
+  font-size: clamp(1rem, 1rem + 1.1333vw, 2.0625rem);
+}
+.fz-0-33{
+  font-size: clamp(0.5rem, 0.5rem + 1.6667vw, 2.0625rem);
+}
+.fz-8-20{
+  font-size: clamp(0.5rem, 0.5rem + 0.8vw, 1.25rem);
+}
+.toRightClip{
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+}
+.toLeftClip{
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+}
