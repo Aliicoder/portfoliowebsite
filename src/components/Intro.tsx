@@ -62,13 +62,7 @@ const Intro = () => {
             </motion.span>
               
         </h2>
-        <div className='flex mt-[60px] border-solid border-black border w-fit mx-auto sm:mx-0  '>
-          <a className='fz-8-20 font-bold  w-fit 
-          translate-x-[-10px] translate-y-[-10px] transition-all
-          hover:translate-x-[0px] hover:translate-y-[0px]
-          bg-[var(--main-color)] text-white py-[14px] px-[20px] ' 
-          href="https://wa.me/916366313572">get in touch</a>
-        </div>
+        
       </div>
       
     </div>
