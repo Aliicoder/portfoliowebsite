@@ -15,7 +15,7 @@ const Intro = () => {
 
     <div className='flex flex-col justify-between h-[101vh]'>
     <div>
-      <h1 className='pl-[100px] pt-[50px] lg:py-[50px]  font-bold fz-25'>alicoder.</h1>
+      <h1 className='cp pt-[50px]   font-bold fz-25'>alicoder.</h1>
     </div>
     <div className='flex lg:flex-row flex-col items-center lg:justify-center   '>
       <img src={img} alt="" className=' h-[220px] lg:h-[440px] lg:p-0 cp mb-[50px] object-contain' />

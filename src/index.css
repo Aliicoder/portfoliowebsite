@@ -6,9 +6,12 @@
   --main-color:#4DABF4;
 }
 *{
-  outline: uto;
+  outline: auto;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+}
+body{
+  overflow-x: hidden;
 }
 .cp{
   padding:clamp(0rem, 0rem + 5.3333vw, 5rem);
