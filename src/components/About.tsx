@@ -26,7 +26,7 @@ const about = () => {
        className='z-[-1] absolute w-full h-full bg-[var(--main-color)] '>
   
       </motion.div>
-     <p className='min-w-[20px] p-[80px]'>
+     <p className='fz-0-20 font-bold max-w-[600px] text-white cp'>
      <motion.span
        variants={animations}
        initial="hidden"
