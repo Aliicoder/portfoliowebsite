@@ -13,7 +13,7 @@ const animations = {
 const Intro = () => {
   return ( 
 
-    <div className='flex flex-col justify-between h-[101vh]'>
+    <div className='flex flex-col justify-between h-[101vh] mb-[100px]'>
     <div>
       <h1 className='cp pt-[50px]   font-bold fz-25'>alicoder.</h1>
     </div>
@@ -73,7 +73,7 @@ const Intro = () => {
       
     </div>
     <div className='flex justify-center'>
-      <h1 className='fz-33 py-[50px] font-bold'>brief about me</h1>
+      <h1 className='fz-33 py-[50px]  font-bold'>brief about me</h1>
     </div>
   </div>
    );
