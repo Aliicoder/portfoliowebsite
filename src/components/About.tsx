@@ -32,7 +32,7 @@ const about = () => {
        initial="hidden"
        animate="visible"
        >
-       {`Ali Fahmi is a skilled web developer 
+       {`skilled web developer 
        and graphic designer. With a keen eye for detail 
        and a passion for creating visually appealing and 
        functional websites, Ali combines technical expertise 

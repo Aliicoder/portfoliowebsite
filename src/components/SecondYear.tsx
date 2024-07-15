@@ -15,8 +15,12 @@ const SecondYear = () => {
   
       </motion.div>
         <img className='cp100' src={secondYear} alt="" />
-        <p className='fz-0-20 font-bold max-w-[600px] text-white cp'>My journey into the world of programming and graphic design began with a curious fascination for technology and creativity. Initially, I dabbled in basic HTML and CSS, gradually building simple web pages. The sense of accomplishment from seeing my code come to life fueled my desire to learn more. I soon ventured into JavaScript, where 
-          I encountered both challenges and triumphs, each teaching me the value of persistence and problem-solving.
+        <p className='fz-0-20 font-bold max-w-[600px] text-white cp'>front-end development began with a curiosity 
+          for how web pages came to life in the browser. I started with the basics, learning HTML to structure 
+          content, CSS to style it, and JavaScript to add interactivity. The immediate visual feedback from these 
+          languages fueled my passion and drove me to deepen my knowledge. I explored various CSS frameworks like 
+          Bootstrap and Tailwind CSS to streamline my design process and ensure responsive layouts. Discovering 
+          React.js was a game-changer, as it allowed me to build dynamic, component-based user interfaces efficiently.
         </p>
       </div>
     </>

@@ -14,8 +14,14 @@ const FourthYear = () => {
           className='z-[-1] absolute w-full h-full bg-[var(--main-color)] '>
         </motion.div>
         <img className='cp100' src={fourthYear} alt="" />
-        <p className='fz-0-20 font-bold max-w-[600px] text-white cp'>My journey into the world of programming and graphic design began with a curious fascination for technology and creativity. Initially, I dabbled in basic HTML and CSS, gradually building simple web pages. The sense of accomplishment from seeing my code come to life fueled my desire to learn more. I soon ventured into JavaScript, where 
-          I encountered both challenges and triumphs, each teaching me the value of persistence and problem-solving.</p>
+        <p className='fz-0-20 font-bold max-w-[600px] text-white cp'> full-stack development began with a 
+          fascination for how websites functioned behind the scenes. Initially, I focused on front-end development, 
+          mastering HTML, CSS, and JavaScript to create visually appealing and interactive user interfaces. However, 
+          I soon realized that to fully bring my web projects to life, I needed to understand the backend as well. 
+          This led me to explore server-side technologies like Node.js and Express.js. I delved into database 
+          management with MongoDB, learning how to design and interact with databases to store and retrieve data 
+          efficiently. Embracing the full-stack mindset, I integrated technologies like Docker for containerization 
+          and AWS EC2 for deployment, ensuring my applications were robust and scalable. .</p>
       </div>
     </>
    );
